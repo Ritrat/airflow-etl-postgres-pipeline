@@ -5,7 +5,7 @@ import csv
 import psycopg2
 
 default_args = {
-    'start_date': datetime(2024, 1, 1),
+    'start_date': datetime(2025, 3, 5),
 }
 
 dag= DAG(
@@ -20,9 +20,9 @@ def load_csv_to_postgres():
     conn = psycopg2.connect(
         host='host.docker.internal', #to connect from airflow container to your local machine
         port='5432',
-        database='postgres',
-        user='myuser',
-        password='mypass'
+        database='your_database',
+        user='your_username',
+        password='your_password'
     )
     cur = conn.cursor()
 
