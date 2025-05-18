@@ -1,11 +1,11 @@
 services:
   postgres:
     image: postgres
-    container_name: pg-etl
+    container_name: pg
     environment:
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypass
-      POSTGRES_DB: mydb
+      POSTGRES_USER: your_username
+      POSTGRES_PASSWORD: your_password
+      POSTGRES_DB: your_database
     ports:
       - "5432:5432"
     volumes:
