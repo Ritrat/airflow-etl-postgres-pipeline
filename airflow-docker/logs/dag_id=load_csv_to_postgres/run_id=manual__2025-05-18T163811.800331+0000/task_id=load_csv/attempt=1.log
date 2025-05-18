@@ -1,0 +1,11 @@
+{"timestamp":"2025-05-18T16:38:29.309784","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-18T16:38:29.310824","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/load_csv_to_postgres.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-18T16:38:30.105180Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:30.105590Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:30.106297Z","level":"info","event":"Current task name:load_csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:30.106647Z","level":"info","event":"Dag name:load_csv_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:30.107091Z","level":"info","event":"Data loaded into PostgreSQL","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:30.107498Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:30.107839Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:30.108123Z","level":"info","event":"Task operator:<Task(PythonOperator): load_csv>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-18T16:38:29.605393","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
